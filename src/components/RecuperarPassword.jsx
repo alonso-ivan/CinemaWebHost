@@ -16,7 +16,7 @@ export function RecuperarPassword({ users }) {
       alert("Se ha enviado un enlace para recuperar la contraseña a tu correo electrónico.");
       navigate("/login"); // Redirige al usuario a la página de inicio de sesión
     } else {
-      setError("Nombre de usuario o correo electrónico incorrectos.");
+      setError("Nombre de usuario o correo electrónico incorrectos");
     }
   };
 
